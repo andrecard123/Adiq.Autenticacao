@@ -1,0 +1,9 @@
+<div class="login-page">
+    <div class="form">
+        <form [formGroup]="form">
+            <input type="text" formControlName="username" placeholder="Username" />
+            <input type="password" formControlName="password" placeholder="Password" />
+        </form>
+        <button (click)="authenticateCredential();">login</button>
+    </div>
+</div>
